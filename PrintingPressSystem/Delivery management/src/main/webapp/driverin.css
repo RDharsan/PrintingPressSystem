@@ -1,0 +1,164 @@
+@charset "ISO-8859-1";
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	font-family:'Poppins',sans-serif;
+}
+
+body{
+	display:flex;
+	height:100vh;
+	justify-content:center;
+	align-items:center;
+	background:#ebe8e8;
+	
+	}
+
+
+
+
+
+
+
+.container.title::before{
+	content:'';
+	position:absolute;
+	left:0;
+	bottom:0;
+	height:3px;
+	width:30px;
+	background:linear-gradient(135deg,#71b7e6,#9b59b6);
+	
+}
+
+.container form .user-details{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-between;
+	margin-top:10px;
+}
+
+form .user-details .input-box{
+	margin:5px 0 12px 0;
+	width:calc(100% / 2 - 20px);
+	margin-top:10px;
+}
+
+.user-details .input-box  .details{
+	display:block;
+	font-weight:80;
+	margin-bottom:-5px;
+	font-style:bold;
+}
+
+.user-details .input-box input{
+	height:35px;
+	width:100%;
+	outline:none;
+	border-radius:5px;
+	border:1px solid #ccc;
+	padding-left:15px;
+	font-size:16px;
+	border-bottom-width:2px;
+	margin-top:10px;
+}
+
+.user-details  .input-box input:focus,
+.user-details  .input-box input:valid{
+	border-color:#9b59b6;
+	
+}
+
+ .button
+{
+	margin-left:50px;
+	width:70%;
+	height:40px;
+	background-color:#6afb92;
+	border:none;
+	font-size:20px;
+	letter-spacing:1px;
+	font-weight:500;
+	border-radius:25px;
+	border:1px solid;
+	transition:.5s;
+}
+ 
+ 
+ 
+.wrapper1{
+	display:flex;
+	position:relative;	
+}
+
+.wrapper1 .sidebar1{
+	position:fixed;
+	width:130px;
+	height:300%;
+	background:#006478;
+	display:block;
+	left: 0px;
+	top : 0px;
+	z-index: 2;
+	
+}
+.wrapper1 .sidebar1 ul{
+	padding: 0;
+	margin: 0;
+}
+.wrapper1 .sidebar1 ul li{
+	padding-bottom:5px;
+	
+	border-top:100px;
+	list-style:none;
+	padding-top : 30px;	
+	padding-left:12px;
+	color: white;
+}
+
+.wrapper .main_content{
+	width:100%;
+	margin-left:150px;
+}
+
+
+.wrapper1 .main_content1{
+	width:100%;
+	margin-left:150px;
+}
+
+.wrapper1 .main_content1 .header{
+	padding:20px;
+	background:#fff;
+	color:#717171;
+	border-bottom:1px solid #e0e4e8;
+	font-weight:bold;
+}
+
+.wrapper1 .sidebar1 ul li a{
+	text-decoration:none;
+	font-family: Verdana;
+	color: white;
+}
+.wrapper1 .sidebar1 ul li:hover{
+	background: #519EAD;		
+}
+
+.img1{
+	width:130px;
+	height:100px;
+}
+
+.img1-div{
+	width:130px;
+	height:100px;
+}
+
+
+.wrapper1 .sidebar1 h2{
+	color:white;
+	text-transform:uppercase;
+	text-align:center;
+	margin-bottom:30px;
+}

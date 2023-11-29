@@ -1,0 +1,99 @@
+@charset "ISO-8859-1";
+
+body{
+	background-color: #ebe8e8 ;
+}
+.button {
+  border: none;
+  color: #006478;
+  padding: 1px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 0px 0px;
+  transition-duration: 0.1s;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #006478;
+  color: white;
+}
+
+.icon{
+	margin-right:5px;
+	color: white;
+}
+.pdf{
+	z-index :5;
+}
+.btn{
+	margin-top:10px;
+	background-color:#006478;
+	border :none;
+	color: white;
+}
+a:link {
+  color: white;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+.container{
+	margin-left:135px;
+	margin-top:155px;
+}
+.tbl-contain{
+	margin-top: 4px;
+    border: 1px solid #A7B4AC;
+}
+.border {
+  border-radius: 5px;
+  background-color: #D8D4D4;
+  padding: 20px;
+}
+.center{
+	align: center;
+}
+.ex{
+	margin-left: 230px;
+	margin-top: 130px;
+	margin-bottom: 30px;
+}
+
+.generate-top {
+	display: flex;
+	justify-content: space-between;
+}
+.generate{
+	display: flex;
+	align-items: stretch;
+}
+.generate-btn{
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-size: 20px;
+}
+.generate-content{
+	margin-top:10px;
+	margin-right:10px;
+}
+.report-filter{
+	margin:10px;
+}
+.side{
+	display: flex;
+}
+.report-tbl {
+	display: flex;
+	align-items: stretch;
+}
+.total-report {
+	display: flex;
+	justify-content: space-between;
+	font-size: 25px;
+	padding-left: 15px;
+	padding-right: 15px;
+}

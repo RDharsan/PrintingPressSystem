@@ -1,0 +1,96 @@
+@charset "ISO-8859-1";
+* {
+  box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+  width: 80%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+input[type=number], select, textarea {
+  width: 80%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+input[type=date], select, textarea {
+  width: 80%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+  font-size: 20px;
+  color: #400000;
+}
+.form__label {
+  font-weight: 500;
+  padding: 10px 120px 0;
+  color: #400000;
+}
+
+h2 {
+  text-align: center;
+  padding: 12px;
+  font-size: 60px;
+  text-transform: uppercase;
+  color: #400000;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 18px 40px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.col-35 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-65 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-35, .col-65, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
